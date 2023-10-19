@@ -1,0 +1,51 @@
+@baseUrl = http://localhost:3333
+@authToken = {{authenticate.response.body.token}}
+
+# @name create_account
+POST {{baseUrl}}/users
+Content-Type: application/json
+
+{
+  "firstName": "test",
+  "lastName": "test",
+  "email": "clina1@email.com.br",
+  "cpf": "001.001.001-01",
+  "address": "rua dos bobos",
+  "phone": "83981314690",
+  "birthday": "01/01/1990",
+  "password": "123456"
+}
+
+###
+
+# @name authenticate
+POST {{baseUrl}}/sessions
+Content-Type: application/json
+
+{
+  "email": "clina1@email.com.br",
+  "password": "123456"
+}
+
+
+###
+
+# @name me
+GET {{baseUrl}}/me
+Content-Type: application/json
+Authorization: Bearer {{authToken}}
+
+###
+
+# @name create_appointment
+POST {{baseUrl}}/appointments
+Content-Type: application/json
+Authorization: Bearer {{authToken}}
+
+{
+  "date": "{{$datetime '2023-10-12T10:32:00.00Z'}}",
+  "userId": 1,
+  "consulta":"Consulta muito louca",
+  "unidade": "Unidade muito doida",
+  "nomePaciente": "Paciente doidão"
+}

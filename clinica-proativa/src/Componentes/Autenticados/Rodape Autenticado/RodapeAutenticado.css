@@ -1,0 +1,31 @@
+.containerGeralRodape{
+    margin-top: 9rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #A0CDE0;
+}
+
+.Container-Rodape{
+    margin-top: 2rem;
+    margin-left: 30rem;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.botaoRodape{
+    margin-top: 2rem;
+    padding: 6px 40px;
+    background-color: #D43E36;
+    border: 1px solid #D43E36;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.botaoRodape a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.divbotao{
+    width: 40%;
+}

@@ -1,0 +1,191 @@
+
+/*estilizaçao do conteudo principal */
+
+
+
+.imgExame{
+    background-image: url('../../images/Exames/fundoexames.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajuste conforme necessário */
+    background-position: center; /* Ajuste conforme necessário */
+    /* Outros estilos... */
+    padding: 320px;
+
+}
+
+.Conteudo{
+    padding: 2rem 0 0 2rem;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.ConteudoExame{
+    color: #017169;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+.pesquisa{
+    width: 22rem;
+    padding: 1rem;
+    border-radius: 17px;
+    border: 2px solid #017169;
+    margin-top: -40px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #017169;
+    cursor: text;
+}
+.i{
+    position: absolute; /* Permite posicionar o ícone dentro do input */
+    top: 84%; /* Alinha o ícone verticalmente ao centro do input */
+    right: 205px; /* Posiciona o ícone 10px à direita do input */
+    color: #017169;
+    cursor: pointer;
+}
+
+
+/*Parte dos Exames ------------------------*/
+
+.Exames{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    
+}
+.Titulo{
+    background: linear-gradient(to top,#ffffff, #DAE7EE);
+}
+.TituloExame{
+    color: #017169;
+    font-size: 4rem;
+    text-align: center;
+    padding: 3rem;
+}
+.contEx{
+    margin-left: 100px;
+    margin-bottom: 4.5rem;
+    }
+/*Hemograma*/
+
+.Hemogramafundo{
+    background-image: url('../../images/Exames/Hemograma.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajuste conforme necessário */
+    background-position: center; /* Ajuste conforme necessário */
+    /* Outros estilos... */
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+.SpanExame{
+    color: #017169;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-left: 55px;
+    margin: 15px;
+    cursor: pointer;
+
+}
+
+
+/*Eletrocardiograma*/
+
+.Eletrocardiogramafundo{
+    background-image: url('../../images/Exames/Eletrocardiograma.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajuste conforme necessário */
+    background-position: center; /* Ajuste conforme necessário */
+    /* Outros estilos... */
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/*TesteErgometrico*/
+
+.TesteErgometricofundo{
+    background-image: url('../../images/Exames/TesteErgometrico.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajuste conforme necessário */
+    background-position: center; /* Ajuste conforme necessário */
+    /* Outros estilos... */
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/*Glicemia*/
+
+.Glicemiafundo{
+    background-image: url('../../images/Exames/Glicemia.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajuste conforme necessário */
+    background-position: center; /* Ajuste conforme necessário */
+    /* Outros estilos... */
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+/*Tsh*/
+
+.Tshfundo{
+    background-image: url('../../images/Exames/TSHeT4.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajuste conforme necessário */
+    background-position: center; /* Ajuste conforme necessário */
+    /* Outros estilos... */
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+/*Acido Urico*/
+
+.Acidofundo{
+    background-image: url('../../images/Exames/AcidoUrico.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajuste conforme necessário */
+    background-position: center; /* Ajuste conforme necessário */
+    /* Outros estilos... */
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+
+
+/*Banner final */
+
+.h2E{
+    font-size: 2rem;
+    color: #017169;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.BannerEx{
+    background-image: url('../../images/Exames/bannerExames.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajuste conforme necessário */
+    background-position: center; /* Ajuste conforme necessário */
+    /* Outros estilos... */
+    padding: 600px;
+    margin-top: 4rem;
+}

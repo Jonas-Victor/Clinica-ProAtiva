@@ -1,0 +1,99 @@
+
+
+
+
+/*Codigo Da sidebar Normal*/
+
+*{
+    padding: 0;
+    margin: 0;
+ }
+ body{
+     background: #ffffff;
+ }
+ .Containertop{
+     padding: 15px;
+     background: #017169;
+     display: grid;
+     justify-content: space-between; 
+     grid-template-columns: auto auto;
+ }
+ 
+ .Endereco{
+     color: #ffffff;
+ }
+ .EnderecoIcon{
+     color: #ffffff;
+     padding-right: 4px;
+ }
+ .Contato{
+     color: #ffffff;
+ }
+ .ContatoIcon{
+     padding-right: 4px;
+     color: #ffffff;
+ }
+ 
+ /*
+ Menu do site 
+ */
+ .menu-containerA{
+     margin-left: 60%;
+ }
+ 
+ .menu-pricipalA{
+     list-style: none;
+     padding: 0;
+ }
+ 
+ .menu-pricipalA li{
+     display: inline;
+ }
+ 
+ .menu-pricipalA li a{
+     text-decoration: none;
+     display: inline-block;
+     padding:  20px;
+     color: #017169;
+     transition: 0.5s;
+     cursor: pointer;
+ }
+
+.usuario-link{
+    text-decoration: none;
+    display: inline-block;
+    width: 150px;
+    padding:  20px;
+    color: #017169;
+    transition: 0.5s;
+    cursor: pointer;
+    font-weight: bold;
+ }
+ 
+ .menu-pricipalA li a:hover{
+     border-bottom: 2px solid #21A8E2 ; 
+     color: #21A8E2;
+ }
+ 
+
+ /*Submenu =====================*/
+
+ .Sub-menu-1{
+    display: none;
+    background: #ffffff;
+ }
+
+ .menu-containerA ul li:hover .Sub-menu-1{
+    display: block;
+    position: absolute;
+    margin-left: 370px;
+    margin-right: 20px;
+ }
+
+ .menu-containerA ul li:hover .Sub-menu-1 ul{
+    display: block;
+ }
+
+ .menu-containerA ul li:hover .Sub-menu-1 ul li{
+    width: 150px;
+ }

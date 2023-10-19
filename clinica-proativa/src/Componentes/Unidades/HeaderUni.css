@@ -1,0 +1,124 @@
+/*Controle de imagen */
+
+.imgUni{
+    background-image: url('../../images/Unidades/Unidadespost.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajuste conforme necessário */
+    background-position: center; /* Ajuste conforme necessário */
+    /* Outros estilos... */
+    padding: 320px;
+
+}
+
+
+/*Conteudo Post e Div pesquisa*/
+.containerConteudo{
+    padding: 2rem 0 0 2rem;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.ConteudoUni{
+    color: #017169;
+    font-size: 1.5rem;
+    font-weight: 700;
+    
+}
+.ContainerDasUPA{
+    background: linear-gradient(to top,#ffffff, #DAE7EE);
+}
+.TituloUni{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #017169;
+    padding-top: 2rem;
+}
+
+.pesquisaUni{
+    width: 22rem;
+    padding: 1rem;
+    border-radius: 17px;
+    border: 2px solid #017169;
+    margin-top: -40px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #017169;
+    cursor: text;
+}
+
+/* Conteudo das unidades */
+
+.Unidades{
+    display: grid;
+    grid-template-columns: auto auto ;
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
+/*Gambiarra para as info da unidade 1  fica no lugar*/
+.Unidades1{
+    display: grid;
+    grid-template-columns: auto auto ;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    margin-right: 150px;
+}
+
+.Imgunidae1{
+    margin-left: 2rem;
+    background-image: url('../../images/Unidades/Unidade1.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajuste conforme necessário */
+    background-position: center; /* Ajuste conforme necessário */
+    /* Outros estilos... */
+    padding: 150px;
+    width: 800px;
+}
+.Imgunidae2{
+    margin-left: 2rem;
+    background-image: url('../../images/Unidades/Unidade2.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajuste conforme necessário */
+    background-position: center; /* Ajuste conforme necessário */
+    /* Outros estilos... */
+    padding: 150px;
+    width: 800px;
+}
+
+.Imgunidae3{
+    margin-left: 2rem;
+    background-image: url('../../images/Unidades/Unidade3.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajuste conforme necessário */
+    background-position: center; /* Ajuste conforme necessário */
+    /* Outros estilos... */
+    padding: 150px;
+    width: 800px;
+}
+
+
+
+
+
+
+.Cidades{
+    text-align: center;
+    font-size: 2rem;
+    padding: 40px;
+    font-weight: bold;
+    padding-bottom: 3rem;
+   
+}
+/*Controle de icones*/
+.EnderecoUni{
+    font-weight: bold;
+    font-size: 1.4rem; 
+}
+.PhoneUni{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.ClockUni{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+

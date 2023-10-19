@@ -1,0 +1,37 @@
+.PostExamesMeus{
+    background-image: url('../../images/MeusExame/MeusExame.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajuste conforme necessário */
+    background-position: center; /* Ajuste conforme necessário */
+    /* Outros estilos... */
+    padding:300px;
+}
+
+.triangle {
+background-color: #278680;
+width: 500px;
+height: 120px;
+margin-left: -300px;
+border-radius: 8px;
+}
+
+.traingleh1{
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 35px;
+}
+
+.BemvindoAG{
+    color: #278680;
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+.AgendamentosFeitos{
+border: 1px solid black;
+}
+
+.h1Agendamentos{
+    text-align: center;
+    color: #278680;
+}

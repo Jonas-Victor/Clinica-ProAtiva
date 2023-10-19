@@ -1,0 +1,62 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+body{
+    background: #ffffff;
+}
+.Containertop{
+    padding: 15px;
+    background: #017169;
+    display: grid;
+    justify-content: space-between; 
+    grid-template-columns: auto auto;
+}
+
+.Endereco{
+    color: #ffffff;
+}
+.EnderecoIcon{
+    color: #ffffff;
+    padding-right: 4px;
+}
+.Contato{
+    color: #ffffff;
+}
+.ContatoIcon{
+    padding-right: 4px;
+    color: #ffffff;
+}
+
+/*
+Menu do site 
+*/
+.menu-container{
+    margin-left: 60%;
+}
+
+.menu-pricipal{
+    list-style: none;
+    padding: 0;
+    margin-left: 5rem;
+}
+
+.menu-pricipal li{
+    display: inline;
+}
+
+.menu-pricipal li a{
+    text-decoration: none;
+    display: inline-block;
+    padding:  20px;
+    color: #017169;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.menu-pricipal li a:hover{
+    border-bottom: 2px solid #21A8E2 ; 
+    color: #21A8E2;
+}
+
+

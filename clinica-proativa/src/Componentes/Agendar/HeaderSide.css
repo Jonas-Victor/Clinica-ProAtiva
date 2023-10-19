@@ -1,0 +1,100 @@
+.HeaderAgendar{
+    background-image: url('../../images/Agendar/postAgendar.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajuste conforme necessário */
+    background-position: center; /* Ajuste conforme necessário */
+    /* Outros estilos... */
+    padding:400px;
+}
+
+.Funcionalidades{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 4rem;
+    padding-top: 2rem;
+    margin-left: 6rem;
+}
+
+.funacoeslateral{
+    width: 400px;
+    height: 250px;
+    background: linear-gradient(to top,#ffffff, #DAE7EE);
+}
+
+.funacoesmeio{
+    width: 400px;
+    background: linear-gradient(to top,#ffffff, #83ACCD);
+}
+
+.PA{
+    word-wrap: break-word;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-top: 30px;
+    text-align: center;
+}
+.H1A{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.IA{
+padding-right: 5px;
+}
+
+
+/*Estilizando o formulario de Agendamento*/
+
+.agendamento-form {
+    width: 450px; /* Defina a largura desejada para a div */
+    float: left; /* Alinhe a div à esquerda */
+    margin-right: 20px; /* Crie um espaço à direita para melhor legibilidade */
+    margin-left: -20rem;
+    margin-top: -9rem;
+}
+
+.agendamento-form label,
+.agendamento-form select,
+.agendamento-form input,
+.agendamento-form button {
+    display: block; /* Faça os elementos ocuparem uma linha inteira */
+    width: 100%; /* Defina a largura de todos os elementos como 100% */
+    margin-bottom: 5px; /* Adicione um espaço entre os elementos */
+    padding: 15px;
+}
+
+.agendamento-form button {
+    background-color: #017169; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none; /* Remova a borda do botão */
+    padding: 10px; /* Adicione espaço interno ao botão */
+    cursor: pointer; /* Altere o cursor ao passar o mouse sobre o botão */
+    margin-top: 15px;
+}
+
+/* Estilo adicional para quando o botão estiver sendo clicado */
+.agendamento-form button:hover {
+    background-color: #007BFF
+}
+
+
+#consultalabel,
+#unidadelabel,
+#pascientelabel{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#consulta{
+    width: 100%;
+}
+
+
+.agendamento-info{
+    border: 2px solid #017169;
+    border-radius: 8px;
+    margin-top: 2rem;
+    display: inline-block;
+    padding: 20px;
+}

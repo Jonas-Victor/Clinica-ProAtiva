@@ -1,0 +1,88 @@
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #121212;
+    color: #FFF;
+    padding: 14px;
+
+    padding-top: 5vh;
+    background-image: url(../../images/Login/fundocadastro.avif);
+    background-size: cover;
+    overflow: hidden;
+    padding: 60.5px;
+    filter: brightness(0.7);
+  }
+  
+  .title{
+    margin-bottom: 14px;
+    color: #017169;
+  }
+  
+  .form{
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+  }
+  
+  .input{
+    margin-bottom: 14px;
+    height: 34px;
+    border-radius: 4px;
+    border: 0;
+    padding: 0 8px;
+  }
+  
+  .textarea{
+    margin-bottom: 14px;
+    border-radius: 4px;
+    border: 0;
+    padding: 8px;
+    height: 94px;
+    resize: none;
+  }
+  
+  .button{
+    height: 34px;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    background-color: #017169;
+    font-size: 18px;
+    transition: background-color, transform 0.8s;
+  }
+  
+  .button:hover{
+    background-color: #21A8E2;
+    transform: scale(1.01);
+  }
+
+  .divcontato{
+   
+  }
+
+.VoltarContato{
+    color: #278680;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-top: 5rem;
+  }
+
+.ContatoIconPage{
+  display: inline;
+  border: 2px solid #278680 ;
+  background-color: #fff;
+  font-size: 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 10px;
+
+}
+
+.ContatoPage{
+color: #017169;
+}
